@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Game Backlog Manager</string>
+    <string name="statusText">Status</string>
+    <string name="notesText">Notes</string>
+    <string name="platformText">Platform</string>
+    <string name="titleText">Title</string>
+    <string name="remove_game">Game has been removed</string>
+    <string name="update_game">Game has been updated</string>
+    <string name="add_game">Game has been added</string>
+    <string name="empty_fields">The fields are empty!</string>
+    <string-array name="status_array">
+    <item>Want to play</item>
+    <item>Playing</item>
+    <item>Stalled</item>
+    <item>Dropped</item>
+</string-array>
+
+</resources>
