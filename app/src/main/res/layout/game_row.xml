@@ -5,8 +5,8 @@
     android:id="@+id/cardViewItem"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginEnd="16dp"
-    android:layout_marginStart="16dp"
+    android:layout_marginEnd="12dp"
+    android:layout_marginStart="12dp"
     android:layout_marginTop="20dp"
     app:cardElevation="6dp"
     card_view:cardBackgroundColor="#fff">
@@ -14,10 +14,10 @@
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="20dp"
-        android:layout_marginLeft="12dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginStart="12dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
         android:padding="8dp">
 
         <TextView
@@ -42,8 +42,8 @@
             android:id="@+id/statusItem"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_constraintEnd_toStartOf="@id/dateItem"
-            app:layout_constraintStart_toEndOf="@id/platformItem"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/titleItem" />
 
         <TextView
